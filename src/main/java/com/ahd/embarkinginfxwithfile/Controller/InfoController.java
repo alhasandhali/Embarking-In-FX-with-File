@@ -184,7 +184,6 @@ public class InfoController implements Initializable {
         // For Click on a table row and show row's information on below Field
         productTable.getSelectionModel().selectedItemProperty().addListener((observableValue, oldSelection, newSelection) -> {
             if (newSelection != null) {
-                System.out.println(newSelection.getDressId());
                 dressShowLabel = newSelection;
                 showDressDetails(newSelection);
             }
