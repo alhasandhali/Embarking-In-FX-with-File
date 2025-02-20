@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ahd.embarkinginfxwithfile.Controller.InfoController">
+   <children>
+      <Label alignment="TOP_CENTER" layoutX="210.0" layoutY="14.0" text="Dress Collection" textFill="#0b10ac">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Button alignment="CENTER" layoutX="536.0" layoutY="16.0" mnemonicParsing="false" onAction="#onBackButton" text="Back">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="searchBar" layoutX="14.0" layoutY="51.0" prefHeight="26.0" prefWidth="570.0" promptText="Type and enter to search products..." />
+      <Separator layoutX="193.0" layoutY="319.0" prefWidth="200.0" />
+      <Label layoutX="57.0" layoutY="322.0" text="Selected Dress Information / First Dress Information (Default)">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="380.0" text="Dress Name:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameShowLabel" layoutX="109.0" layoutY="380.0" prefHeight="20.0" prefWidth="181.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="403.0" text="Dress Type:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="typeShowLabel" layoutX="102.0" layoutY="404.0" prefHeight="20.0" prefWidth="190.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="429.0" text="Available Size:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="sizeShowLabel" layoutX="115.0" layoutY="429.0" prefHeight="20.0" prefWidth="181.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="452.0" text="Dress Color:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="colorShowLabel" layoutX="107.0" layoutY="453.0" prefHeight="20.0" prefWidth="181.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="476.0" text="Price:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="priceShowLabel" layoutX="68.0" layoutY="476.0" prefHeight="20.0" prefWidth="226.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="502.0" text="Dress Details:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="detailsShowLabel" layoutX="114.0" layoutY="502.0" prefHeight="20.0" prefWidth="175.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="526.0" text="Last Purchase:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="dateShowLabel" layoutX="118.0" layoutY="527.0" prefHeight="20.0" prefWidth="175.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="550.0" text="Avaiable Quantity:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="quantityShowLabel" layoutX="145.0" layoutY="551.0" prefHeight="20.0" prefWidth="148.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Separator layoutX="297.0" layoutY="359.0" orientation="VERTICAL" prefHeight="200.0" />
+      <Label fx:id="quantityErrorLabel" alignment="CENTER" layoutX="24.0" layoutY="571.0" prefHeight="18.0" prefWidth="270.0" />
+      <Label layoutX="303.0" layoutY="363.0" text="Discount Code:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="codeShowLabel" layoutX="404.0" layoutY="363.0" prefHeight="20.0" prefWidth="120.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="535.0" layoutY="361.0" mnemonicParsing="false" onAction="#onShowButton" text="Show">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="303.0" layoutY="389.0" text="Targated Customer:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="ganderShowLabel" layoutX="433.0" layoutY="390.0" prefHeight="20.0" prefWidth="138.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="303.0" layoutY="415.0" text="Facebook Boosting:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="boostedShowLabel" layoutX="431.0" layoutY="416.0" prefHeight="20.0" prefWidth="148.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imageShowLabel" fitHeight="125.0" fitWidth="150.0" layoutX="367.0" layoutY="436.0" pickOnBounds="true" preserveRatio="true" />
+      <Button alignment="CENTER" layoutX="366.0" layoutY="561.0" mnemonicParsing="false" onAction="#onEditButton" prefHeight="30.0" prefWidth="75.0" text="Edit">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="464.0" layoutY="561.0" mnemonicParsing="false" onAction="#onDeleteButton" prefHeight="30.0" prefWidth="75.0" text="Delete">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="24.0" layoutY="357.0" text="Dress ID:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="idShowLabel" layoutX="87.0" layoutY="357.0" prefHeight="20.0" prefWidth="206.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TableView fx:id="productTable" layoutX="15.0" layoutY="82.0" prefHeight="200.0" prefWidth="570.0">
+        <columns>
+          <TableColumn fx:id="nameCol" prefWidth="98.4000244140625" text="Name" />
+          <TableColumn fx:id="typeCol" prefWidth="77.5999755859375" text="Type" />
+            <TableColumn fx:id="colorCol" prefWidth="79.199951171875" text="Color" />
+            <TableColumn fx:id="priceCol" prefWidth="93.5999755859375" text="Price" />
+            <TableColumn fx:id="dateCol" prefWidth="96.0" text="Purchase Date" />
+            <TableColumn fx:id="quantityCol" prefWidth="71.20001220703125" text="Quantity" />
+            <TableColumn fx:id="boostedCol" prefWidth="53.5999755859375" text="Boosted" />
+        </columns>
+      </TableView>
+      <Label fx:id="specialError" alignment="CENTER" layoutX="77.0" layoutY="282.0" prefHeight="15.0" prefWidth="430.0" text="We are not able to read/write images from text files yet, so the images are not showing." textFill="RED">
+         <font>
+            <Font name="System Bold Italic" size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="178.0" layoutY="300.0" text="Once we learn, we will fix it in the next update." textFill="RED">
+         <font>
+            <Font name="System Bold Italic" size="10.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

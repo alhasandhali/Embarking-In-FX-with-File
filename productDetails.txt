@@ -1,0 +1,5 @@
+P-250220084125, Rookies, Pant, Extra Large, #001A80, 1899.22, Very nice fabrics. And also very comfortable. I hope you like it., 2025-02-20, 5, AHD129, Male, true, javafx.scene.image.Image@3064e82a
+P-250220104001, Faltu, Sweater, Medium, #1A1A1A, 1561.72, It is very faltu. If you like faltu sweater like this. Keep you eyes on here., 2025-02-12, 15, Balermatha, Male, true, javafx.scene.image.Image@52d46ac6
+P-250220084305, Easy, T-Shirt, Large, #993300, 802.34, Very nice fabrics. And also very comfortable. I hope you like it., 2025-02-20, 10, AHD125, Male, true, javafx.scene.image.Image@3064e82a
+P-250220084454, Eagle, Pant, Extra Large, #1A3399, 2996.09, Very nice fabrics. And also very comfortable. I hope you like it., 2025-02-19, 3, AHD123, Male, false, javafx.scene.image.Image@3064e82a
+P-250220160237, Jack & Jane, Pant, Extra Large, #001A80, 2525.0, LKfbhbksbflskfsb fsf ls fblsblfb aksb fk sakf bsalfb ksb fasbflbasb flba slfb ls ablf bsbfl abslfbslbfub, 2025-02-20, 7, soufgis, Male, true, javafx.scene.image.Image@1e01ce9c
